@@ -1,0 +1,73 @@
+body{
+    background-image: url(./istockphoto-1442743958-1024x1024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0%;
+} 
+.menu{
+    /* to fix position */
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    background-color: rgb(98, 24, 167);
+}
+.links{
+    display: inline;
+    font-size: 20px;
+    padding-left: 30px;
+    padding: 30px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-shadow: 2px2 px 2px ;
+    font-size: 15px;
+    font-style: normal;
+}
+
+    /* pseudo class- is used here to project the content  syntax: pseudo class{property:value}*/
+a:hover{
+    font-size: 20px;
+
+}
+    
+html{
+    scroll-behavior: smooth
+}
+.profile{
+    width: 250px;
+    margin-top: 50px;
+}
+#name{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+
+}
+#postion{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin: 5px;
+}
+.line{
+    background-color: black;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    margin: top 0px;;
+    width: 70px;
+
+}
+#mail{
+    font-size: 15px;
+    text-shadow: none;
+    display: inline;
+}
+#insta{
+    font-size: 15px;
+    text-shadow: nine;
+    display: inline;
+}
+
+
